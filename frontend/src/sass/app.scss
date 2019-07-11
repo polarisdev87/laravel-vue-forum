@@ -1,0 +1,16 @@
+@import "~simplemde/dist/simplemde.min.css";
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons");
+@import "~vuetify/dist/vuetify.min.css";
+@import "./scrollbar.scss";
+/* .navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(78, 58, 58, 0.04);
+  }*/
+
+  body {
+      min-width: 350px;
+  }
+  .v-pagination__navigation--disabled {
+    cursor: not-allowed !important;
+    pointer-events: painted !important;
+  }
